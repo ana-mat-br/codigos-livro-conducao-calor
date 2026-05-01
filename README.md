@@ -4,6 +4,26 @@
 
 Este repositório reúne os *notebooks* interativos do livro, prontos para execução no Google Colab. Cada *notebook* implementa a solução analítica de um problema do texto e gera os gráficos correspondentes — basta clicar no badge "Abrir no Colab" para executar diretamente no navegador, sem necessidade de instalação.
 
+## O que é o Google Colab?
+
+O **Google Colab** (Colaboratory) é um ambiente gratuito mantido pela Google que executa código **Python** diretamente no navegador, sem qualquer instalação local — basta uma conta Google. Os arquivos `.ipynb` deste repositório são *notebooks Jupyter*: documentos interativos que combinam texto explicativo, fórmulas matemáticas, código e gráficos no mesmo lugar.
+
+Em cada *notebook* você encontra:
+
+- a **descrição do problema** (geometria, condições de contorno, condição inicial),
+- a **solução analítica** apresentada no capítulo correspondente do livro,
+- o **código Python** que avalia a solução com `numpy`/`matplotlib` e gera os gráficos,
+- comentários didáticos ao longo do código, explicando cada passo.
+
+## Como executar um *notebook*
+
+1. Clique no badge ![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg) ao lado do *notebook* desejado, na lista abaixo.
+2. Faça login com sua conta Google, caso ainda não esteja logado.
+3. No menu superior, escolha **Ambiente de execução → Executar tudo** para rodar todas as células de uma vez; ou pressione **Shift+Enter** dentro de uma célula para executá-la individualmente.
+
+> [!TIP]
+> Edite à vontade os parâmetros físicos (`L`, `alpha`, `k`, `q0`, ...) e re-execute para ver como a solução responde. Para guardar uma versão sua, use **Arquivo → Salvar uma cópia no Drive** — isso não altera o *notebook* original deste repositório.
+
 ---
 
 ## Capítulo 2 — O Método das Funções de Green: Formulação e Interpretação
