@@ -49,7 +49,7 @@ Meio semi-infinito com:
 - Condição inicial: $T(x,0) = 0$
 
 Solução em forma fechada usando a integral da função erro complementar:
-$\Theta(x,t) = (q''_0/k)(4\alpha t)^{1/2}\,\operatorname{ierfc}(x/(4\alpha t)^{1/2})$.
+$\Theta(x,t) = (q''_0/k)(4\alpha t)^{1/2}\,\mathrm{ierfc}\bigl(x/(4\alpha t)^{1/2}\bigr)$.
 
 ---
 
