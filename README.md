@@ -26,8 +26,7 @@ Em cada *notebook* você encontra:
 2. Faça login com sua conta Google, caso ainda não esteja logado.
 3. No menu superior, escolha **Ambiente de execução → Executar tudo** para rodar todas as células de uma vez; ou pressione **Shift+Enter** dentro de uma célula para executá-la individualmente.
 
-> [!TIP]
-> Edite à vontade os parâmetros físicos (`L`, `alpha`, `k`, `q0`, ...) e re-execute para ver como a solução responde. Para guardar uma versão sua, use **Arquivo → Salvar uma cópia no Drive** — isso não altera o *notebook* original deste repositório.
+> 💡 **Dica:** edite à vontade os parâmetros físicos (`L`, `alpha`, `k`, `q0`, ...) e re-execute para ver como a solução responde. Para guardar uma versão sua, use **Arquivo → Salvar uma cópia no Drive** — isso não altera o *notebook* original deste repositório.
 
 ---
 
