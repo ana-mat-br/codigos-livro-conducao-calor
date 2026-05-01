@@ -4,8 +4,6 @@
 
 Este repositório reúne os *notebooks* interativos do livro, prontos para execução no Google Colab. Cada *notebook* implementa a solução analítica de um problema do texto e gera os gráficos correspondentes — basta clicar no badge "Abrir no Colab" para executar diretamente no navegador, sem necessidade de instalação.
 
-> Os scripts auxiliares `.py` (geração de figuras do livro) ficam no [repositório principal](https://github.com/ana-mat-br/livro-conducao-calor), na pasta `codigos/`. Aqui ficam **apenas** os *notebooks* publicados aos leitores.
-
 ---
 
 ## Capítulo 2 — O Método das Funções de Green: Formulação e Interpretação
