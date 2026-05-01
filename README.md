@@ -42,17 +42,17 @@ Placa plana de espessura $L$ com:
 
 Caso geral em que ambas as condições de contorno são não nulas (B11) e a temperatura inicial difere da temperatura prescrita ($T_0 \neq T_1$). O *notebook* mostra a decomposição da solução em três termos: regime permanente, transiente do fluxo e transiente da condição inicial.
 
-### 📐 [`x21_formas_fechadas.ipynb`](https://colab.research.google.com/github/ana-mat-br/codigos-livro-conducao-calor/blob/main/x21_formas_fechadas.ipynb) — Formas fechadas para o Problema X21
+### 📐 [`x21_formas_fechadas.ipynb`](https://colab.research.google.com/github/ana-mat-br/codigos-livro-conducao-calor/blob/main/x21_formas_fechadas.ipynb) — Forma fechada para o Problema X21
 
-Demonstração computacional da vantagem das formas fechadas no Problema X21B10T0. Compara a Eq. (2.51), com dois somatórios (série estacionária de convergência lenta), à Eq. (2.52), que usa a forma fechada $\sum \cos(\beta_m x/L)/\beta_m^2 = (1/2)(1 - x/L)$ e converge com pouquíssimos termos.
+Demonstração computacional da vantagem da forma fechada no Problema X21B10T0. Compara a Eq. (2.51), com dois somatórios (série estacionária de convergência lenta), à Eq. (2.52), que usa a forma fechada $\sum \cos(\beta_m x/L)/\beta_m^2 = (1/2)(1 - x/L)$ e converge com pouquíssimos termos.
 
 ---
 
 ## Capítulo 3 — Fluxo de Calor Imposto: Placa Finita e Meio Semi-infinito
 
-### 📐 [`x22_formas_fechadas.ipynb`](https://colab.research.google.com/github/ana-mat-br/codigos-livro-conducao-calor/blob/main/x22_formas_fechadas.ipynb) — Formas fechadas para o Problema X22
+### 📐 [`x22_formas_fechadas.ipynb`](https://colab.research.google.com/github/ana-mat-br/codigos-livro-conducao-calor/blob/main/x22_formas_fechadas.ipynb) — Forma fechada para o Problema X22
 
-Demonstração computacional das formas fechadas no Problema X22B10T0 (placa com superfície isolada em $x=L$). Compara a série estacionária $(2L/\pi^2)\sum \cos(m\pi x/L)/m^2$, de convergência lenta, à forma fechada $-x + x^2/(2L) + L/3$, que dá o resultado exato com $M=1$ termo.
+Demonstração computacional da forma fechada no Problema X22B10T0 (placa com superfície isolada em $x=L$). Compara a série estacionária $(2L/\pi^2)\sum \cos(m\pi x/L)/m^2$, de convergência lenta, à forma fechada $-x + x^2/(2L) + L/3$, que dá o resultado exato com $M=1$ termo.
 
 ### 🌡️ [`x22b10t0.ipynb`](https://colab.research.google.com/github/ana-mat-br/codigos-livro-conducao-calor/blob/main/x22b10t0.ipynb) — Problema X22B10T0
 
