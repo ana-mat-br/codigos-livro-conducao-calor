@@ -65,13 +65,13 @@ Placa plana de espessura $L$ com:
 
 Solução via funções de Green com autovalores obtidos pelo método de Brent (raízes de $\xi\tan\xi = H_2$).
 
-### [`gx13_autovalores.ipynb`](https://colab.research.google.com/github/ana-mat-br/codigos-livro-conducao-calor/blob/main/gx13_autovalores.ipynb) — Autovalores GX13: exatos vs Beck (1992)
+### [`gx13_autovalores.ipynb`](https://colab.research.google.com/github/ana-mat-br/codigos-livro-conducao-calor/blob/main/gx13_autovalores.ipynb) — Autovalores GX13: Brent vs Beck (1992)
 
-Problema GX13: temperatura prescrita em $x=0$ (tipo 1) e convecção em $x=L$ (tipo 3). Compara os autovalores **exatos** da equação $\xi\cot\xi = -H_2$ (método de Brent) com as fórmulas aproximadas de Beck (1992) — Eqs. (4.22)–(4.25) — e com a correção iterativa de Newton-Raphson (Eq. 4.26). Tabela de erros relativos para diferentes valores de $H_2$.
+Problema GX13: temperatura prescrita em $x=0$ (tipo 1) e convecção em $x=L$ (tipo 3). Compara os autovalores obtidos pelo método de **Brent** para a equação $\xi\cot\xi = -H_2$ com as fórmulas aproximadas de Beck (1992) — Eqs. (4.22)–(4.25) — e com a correção iterativa de Newton-Raphson (Eq. 4.26). Tabela de erros relativos para diferentes valores de $H_2$.
 
-### [`gx23_autovalores.ipynb`](https://colab.research.google.com/github/ana-mat-br/codigos-livro-conducao-calor/blob/main/gx23_autovalores.ipynb) — Autovalores GX23: exatos vs Beck (1992)
+### [`gx23_autovalores.ipynb`](https://colab.research.google.com/github/ana-mat-br/codigos-livro-conducao-calor/blob/main/gx23_autovalores.ipynb) — Autovalores GX23: Brent vs Beck (1992)
 
-Problema GX23: fluxo prescrito em $x=0$ (tipo 2) e convecção em $x=L$ (tipo 3). Compara os autovalores **exatos** da equação $\xi\tan\xi = H_2$ (método de Brent) com as fórmulas aproximadas de Beck (1992) — Eqs. (4.29)–(4.31) — e com a correção iterativa de Newton-Raphson (Eq. 4.33). Tabela de erros relativos para diferentes valores de $H_2$.
+Problema GX23: fluxo prescrito em $x=0$ (tipo 2) e convecção em $x=L$ (tipo 3). Compara os autovalores obtidos pelo método de **Brent** para a equação $\xi\tan\xi = H_2$ com as fórmulas aproximadas de Beck (1992) — Eqs. (4.29)–(4.31) — e com a correção iterativa de Newton-Raphson (Eq. 4.33). Tabela de erros relativos para diferentes valores de $H_2$.
 
 ---
 
