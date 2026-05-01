@@ -112,3 +112,9 @@ A notação **XIJBKLTM** identifica geometria e condições de contorno do probl
 | **TM** | Indica se a condição inicial é não-nula (1) ou nula (0) |
 
 O prefixo **G** designa problemas formulados em termos da função de Green correspondente.
+
+---
+
+## Uso de assistência de IA
+
+A elaboração dos códigos deste repositório e a revisão de redação dos textos do livro contaram com o auxílio de ferramentas de inteligência artificial generativa. As ferramentas foram empregadas como apoio à geração, depuração e documentação de implementações em Python e à revisão linguística do material. **A concepção, a validação técnica e a responsabilidade autoral pelo conteúdo final são integralmente dos autores, Ana Paula Fernandes e Gilmar Guimarães.**
