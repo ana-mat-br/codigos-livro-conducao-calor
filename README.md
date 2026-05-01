@@ -1,5 +1,10 @@
 # Códigos do livro *Condução de Calor: Aplicações das Funções de Green em Problemas de Engenharia*
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)](https://jupyter.org/)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ana-mat-br/codigos-livro-conducao-calor)
+
 **Autores:** Ana Paula Fernandes e Gilmar Guimarães
 
 Este repositório reúne os *notebooks* interativos do livro, prontos para execução no Google Colab. Cada *notebook* implementa a solução analítica de um problema do texto e gera os gráficos correspondentes — basta clicar no badge "Abrir no Colab" para executar diretamente no navegador, sem necessidade de instalação.
