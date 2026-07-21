@@ -101,6 +101,18 @@ Problema GX23: fluxo prescrito em $x=0$ (tipo 2) e convecção em $x=L$ (tipo 3)
 
 ## Capítulo 5 — Problemas Multidimensionais: Produto de Funções de Green Transientes
 
+### 🌡️ [`x23b61t0y13b11.ipynb`](https://colab.research.google.com/github/ana-mat-br/codigos-livro-conducao-calor/blob/main/x23b61t0y13b11.ipynb) — Problema X23B61T0Y13B11 (2D, fluxo oscilatório)
+
+Placa retangular $0 \le x \le a$, $0 \le y \le b$ com:
+
+- $x = 0$ (tipo 2, variação B6): fluxo **oscilatório** $q''_0\cos(\omega t)$
+- $x = a$ (tipo 3): convecção com coeficiente $h_2$ e meio a $T_\infty$
+- $y = 0$ (tipo 1): temperatura prescrita $T_1$
+- $y = b$ (tipo 3): convecção com coeficiente $h_3$ e meio a $T_\infty$
+- Condição inicial: $T(x,y,0) = 0$
+
+Desenvolve as **integrais da equação solução geral** do problema X23Y13: autovalores das duas equações transcendentais ($\beta_m\tan\beta_m = B_2$ e $\gamma_n\cot\gamma_n = -B_3$, pelo método de Brent), núcleos temporais constante e oscilatório, e o fenômeno da **onda térmica** (amortecimento da oscilação com a profundidade, $\delta = \sqrt{2\alpha/\omega}$). Verificações: condição inicial e comparação do regime permanente com solução independente por diferenças finitas.
+
 ### 🌡️ [`x23b11t0y21b21.ipynb`](https://colab.research.google.com/github/ana-mat-br/codigos-livro-conducao-calor/blob/main/x23b11t0y21b21.ipynb) — Problema X23B11T0Y21B21 (2D)
 
 Placa retangular $0 \le x \le a$, $0 \le y \le b$ com:
