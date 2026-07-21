@@ -121,6 +121,14 @@ Solução bidimensional pelo **produto de funções de Green transientes**: cinc
 
 Problema **inverso** de condução de calor (IHCP) para o Problema X22B50T1: placa com fluxo desconhecido $q(t)$ em $x=0$ e superfície isolada em $x=L$. O método **TFBGF** trata a condução como um sistema linear invariante no tempo, caracterizado pela **resposta ao impulso** $h(x,t)$, e estima o fluxo por **deconvolução via FFT** das derivadas temporais dos sinais. O *notebook* mostra o problema direto (temperaturas sintéticas), a resposta impulsiva, a recuperação do pulso triangular e o papel de um **filtro passa-baixa como regularizador** diante do ruído de medição.
 
+### 🔄 [`x33y33z33_tfbgf.ipynb`](https://colab.research.google.com/github/ana-mat-br/codigos-livro-conducao-calor/blob/main/x33y33z33_tfbgf.ipynb) — Método TFBGF em 3D (X33Y33Z33, simulado)
+
+Extensão do método TFBGF a um sólido **tridimensional** (paralelepípedo com convecção nas seis faces e fluxo imposto numa região da face superior). Resolve o problema direto pelo **produto de funções de Green** nas três direções (autovalores por Brent), calcula a resposta impulsiva e recupera o fluxo por deconvolução, demonstrado num caso simulado.
+
+### 🔄 [`x33y33z33_usinagem.ipynb`](https://colab.research.google.com/github/ana-mat-br/codigos-livro-conducao-calor/blob/main/x33y33z33_usinagem.ipynb) — Fluxo de calor no torneamento (X33Y33Z33)
+
+Aplicação do método TFBGF 3D à estimativa do **fluxo de calor na interface cavaco–ferramenta** durante o torneamento, a partir de temperaturas em seis posições. Mostra as respostas impulsivas, a estimativa do fluxo, a **divergência nas posições de resposta retardada e sua correção**, e a estimativa da temperatura na interface. O *notebook* é auto-contido, com dados simulados no lugar das medições reais.
+
 ---
 
 ## Convenção de notação
