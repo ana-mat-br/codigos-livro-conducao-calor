@@ -99,6 +99,30 @@ Problema GX23: fluxo prescrito em $x=0$ (tipo 2) e convecção em $x=L$ (tipo 3)
 
 ---
 
+## Capítulo 5 — Problemas Multidimensionais: Produto de Funções de Green Transientes
+
+### 🌡️ [`x23b11t0y21b21.ipynb`](https://colab.research.google.com/github/ana-mat-br/codigos-livro-conducao-calor/blob/main/x23b11t0y21b21.ipynb) — Problema X23B11T0Y21B21 (2D)
+
+Placa retangular $0 \le x \le a$, $0 \le y \le b$ com:
+
+- $x = 0$ (tipo 2): fluxo de calor prescrito $q''_0$
+- $x = a$ (tipo 3): convecção com coeficiente $h$ e meio a $T_\infty$
+- $y = 0$ (tipo 2): fluxo linear no tempo $q''_1(t) = A_0\,t$
+- $y = b$ (tipo 1): temperatura prescrita $C$
+- Condição inicial: $T(x,y,0) = 0$
+
+Solução bidimensional pelo **produto de funções de Green transientes**: cinco parcelas ($\Theta_{00}$ a $\Theta_{31}$) somadas em série dupla nos autovalores $\beta_m$ (direção $x$, pelo método de Brent) e $\gamma_n = (n-\tfrac12)\pi$ (direção $y$, forma fechada). Inclui as **verificações intrínsecas** que reduzem a solução 2D aos problemas 1D X22B10T0 (direção $x$) e X20B1T0 (direção $y$).
+
+---
+
+## Capítulo 6 — Aplicações das Funções de Green a Problemas Diretos e Inversos: o Método TFBGF
+
+### 🔄 [`x22_tfbgf.ipynb`](https://colab.research.google.com/github/ana-mat-br/codigos-livro-conducao-calor/blob/main/x22_tfbgf.ipynb) — Método TFBGF: problema inverso (X22)
+
+Problema **inverso** de condução de calor (IHCP) para o Problema X22B50T1: placa com fluxo desconhecido $q(t)$ em $x=0$ e superfície isolada em $x=L$. O método **TFBGF** trata a condução como um sistema linear invariante no tempo, caracterizado pela **resposta ao impulso** $h(x,t)$, e estima o fluxo por **deconvolução via FFT** das derivadas temporais dos sinais. O *notebook* mostra o problema direto (temperaturas sintéticas), a resposta impulsiva, a recuperação do pulso triangular e o papel de um **filtro passa-baixa como regularizador** diante do ruído de medição.
+
+---
+
 ## Convenção de notação
 
 A notação **XIJBKLTM** identifica geometria e condições de contorno do problema:
