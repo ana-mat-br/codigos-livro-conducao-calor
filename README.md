@@ -113,6 +113,12 @@ Placa retangular $0 \le x \le a$, $0 \le y \le b$ com:
 
 Desenvolve as **integrais da equação solução geral** do problema X23Y13: autovalores das duas equações transcendentais ($\beta_m\tan\beta_m = B_2$ e $\gamma_n\cot\gamma_n = -B_3$, pelo método de Brent), núcleos temporais constante e oscilatório, e o fenômeno da **onda térmica** (amortecimento da oscilação com a profundidade, $\delta = \sqrt{2\alpha/\omega}$). Verificações intrínsecas: condição inicial e regime permanente extraído da própria equação solução ($t \to \infty$, núcleo constante $\to 1/(D_{mn}\alpha)$), com aproximação exponencial na taxa do primeiro modo e recuperação da condição de contorno $T \to T_1$ em $y \to 0$.
 
+### 🌡️ [`x00y20bx5t0.ipynb`](https://colab.research.google.com/github/ana-mat-br/codigos-livro-conducao-calor/blob/main/x00y20bx5t0.ipynb) — Problema X00Y20Bx5T0 (semi-infinito 2D, fluxo em meia superfície)
+
+Corpo semi-infinito bidimensional ($-\infty < x < \infty$, $y \ge 0$) com fluxo constante $q''_0$ na metade da superfície ($x<0$, $y=0$) e isolamento na outra metade (variação espacial em degrau, tipo $Bx5$).
+
+Desenvolve as integrais da solução por produto de funções de Green ($G_{X00}\cdot G_{Y20}$): quadratura adimensional única nas variáveis de similaridade $u_x, u_y$; **forma fechada na superfície** com a exponencial integral, $T \propto \mathrm{erfc}(u_x) - (u_x/\sqrt{\pi})E_1(u_x^2)$; curva universal de similaridade e mapa de isotermas no interior. Verificações intrínsecas: limite 1D (X20B1T0), metade do valor 1D na borda da região aquecida e superposição das metades complementares.
+
 ### 🌡️ [`x23b11t0y21b21.ipynb`](https://colab.research.google.com/github/ana-mat-br/codigos-livro-conducao-calor/blob/main/x23b11t0y21b21.ipynb) — Problema X23B11T0Y21B21 (2D)
 
 Placa retangular $0 \le x \le a$, $0 \le y \le b$ com:
