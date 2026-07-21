@@ -111,7 +111,7 @@ Placa retangular $0 \le x \le a$, $0 \le y \le b$ com:
 - $y = b$ (tipo 3): convecção com coeficiente $h_3$ e meio a $T_\infty$
 - Condição inicial: $T(x,y,0) = 0$
 
-Desenvolve as **integrais da equação solução geral** do problema X23Y13: autovalores das duas equações transcendentais ($\beta_m\tan\beta_m = B_2$ e $\gamma_n\cot\gamma_n = -B_3$, pelo método de Brent), núcleos temporais constante e oscilatório, e o fenômeno da **onda térmica** (amortecimento da oscilação com a profundidade, $\delta = \sqrt{2\alpha/\omega}$). Verificações: condição inicial e comparação do regime permanente com solução independente por diferenças finitas.
+Desenvolve as **integrais da equação solução geral** do problema X23Y13: autovalores das duas equações transcendentais ($\beta_m\tan\beta_m = B_2$ e $\gamma_n\cot\gamma_n = -B_3$, pelo método de Brent), núcleos temporais constante e oscilatório, e o fenômeno da **onda térmica** (amortecimento da oscilação com a profundidade, $\delta = \sqrt{2\alpha/\omega}$). Verificações intrínsecas: condição inicial e regime permanente extraído da própria equação solução ($t \to \infty$, núcleo constante $\to 1/(D_{mn}\alpha)$), com aproximação exponencial na taxa do primeiro modo e recuperação da condição de contorno $T \to T_1$ em $y \to 0$.
 
 ### 🌡️ [`x23b11t0y21b21.ipynb`](https://colab.research.google.com/github/ana-mat-br/codigos-livro-conducao-calor/blob/main/x23b11t0y21b21.ipynb) — Problema X23B11T0Y21B21 (2D)
 
